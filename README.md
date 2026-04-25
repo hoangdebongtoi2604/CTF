@@ -1,6 +1,6 @@
 # CTF Writeups
 
-This repository contains my writeups for CTF competitions.
+hanh trinh viet write up UwU
 
 ## 2026
 
