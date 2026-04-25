@@ -7,7 +7,7 @@
 | Giải | UMDCTF 2026 |
 | Category | OSINT |
 | Challenge | Hades Market |
-| Người giải | Vũ Lâm |
+| Người giải | hoangdebongtoi |
 
 ---
 
@@ -65,7 +65,7 @@ anonymous sticker
 
 ## Step 1: Tìm anonymous post trong export
 
-Mình bắt đầu bằng việc đọc file `hades_export.json` và lọc các message có `from_id` bắt đầu bằng `channel`.
+Ta bắt đầu bằng việc đọc file `hades_export.json` và lọc các message có `from_id` bắt đầu bằng `channel`.
 
 Có thể dùng đoạn Python sau để lọc nhanh:
 
@@ -98,14 +98,12 @@ sticker_set_name: styx_reaction_pack
 
 Message này quan trọng vì nó được gửi bởi anonymous `Hades Group`, nhưng lại chứa `sticker_set_name`.
 
-Từ đây, mình pivot sang sticker set:
+Từ đây, ta pivot sang sticker set:
 
 ```bash
 styx_reaction_pack
 ```
-
 ---
-
 ## Step 2: Query sticker set
 
 Mình query sticker set:
@@ -245,7 +243,6 @@ Username history:
 
 Đây là bước rất quan trọng, vì số điện thoại này khác với các số ban đầu và có country code `+49`, tức là Germany.
 
-Chuỗi điều tra được mở rộng:
 
 ```bash
 @thanatos_signal
@@ -377,46 +374,4 @@ UMDCTF{REC-9305174}
 
 ---
 
-## Final chain
 
-Toàn bộ chain điều tra:
-
-```bash
-Hades Group anonymous post
-→ sticker_set_name: styx_reaction_pack
-→ Creator UID: 7816442093
-→ aliases linked to UID
-→ @zeus_archive
-→ @thanatos_signal
-→ username history: @kerberos_spine
-→ phone: +49 160 5550 7318
-→ name: Niklas Hofmann
-→ Germany document record: REC-9305174
-```
-
----
-
-## Tổng kết
-
-Bài này có rất nhiều nhiễu:
-
-```bash
-nhiều tài khoản trong group
-nhiều vendor
-nhiều alias
-nhiều phone number
-nhiều đoạn chat khiến mình dễ đoán nhầm admin
-```
-
-Điểm mấu chốt là không nên đoán owner chỉ dựa vào cách nhắn tin. Thay vào đó, cần tìm metadata leak từ anonymous post.
-
-Anonymous owner đã gửi một sticker. Sticker set không trực tiếp lộ tên thật, nhưng nó lộ creator UID. Từ creator UID, mình pivot qua alias, username history, phone number, tên thật và cuối cùng là document record.
-
-Đây là một bài OSINT tập trung vào kỹ năng pivot:
-
-```bash
-metadata leak
-→ identity correlation
-→ cross-source verification
-→ final document lookup
-```
