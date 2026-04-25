@@ -1,4 +1,4 @@
-## Phân tích ban đầu
+## Phân tích
 
 Đề bài cho một ảnh chụp từ camera giao thông trực tiếp. Vì đề có cụm:
 
@@ -6,9 +6,9 @@
 live traffic cam
 ```
 
-nên hướng làm không phải tìm ảnh phong cảnh thông thường, mà phải tìm trong các trang camera giao thông công khai.
+-> tìm trong các trang camera giao thông công khai.
 
-Từ ảnh đề bài, mình rút ra các đặc điểm sau:
+Từ ảnh đề bài, ta rút ra các đặc điểm sau:
 
 - đường 2 làn, kẻ vạch kiểu đường cao tốc ở Mỹ
 - địa hình khô, trống trải, giống vùng high plains / miền Tây nước Mỹ
@@ -143,3 +143,8 @@ https://www.wyoroad.info/Highway/webcameras/all?route=NonInterstateCameras
 ```
 
 Khung cảnh trong ảnh đề bài khớp với khu vực Hanna Junction.
+***
+```bash
+UMDCTF{Hanna, WY}
+```
+
