@@ -17,8 +17,8 @@ CTF/
     └── UMDCTF/
         └── OSINT/
             └── Road3
-                ├──images/
+                ├──images
                 └──README.md
-            └── Hades-Market/
+            └── Hades-Market
                 ├── WriteUp.md
-                └── images/
+                └── images
