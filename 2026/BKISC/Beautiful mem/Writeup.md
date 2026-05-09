@@ -11,11 +11,6 @@ vol3 -f chall.dmp windows.info
 
 Cần biết trước khi dump có process nào chạy k.
 
-```bash
-vol3 -f chall.dmp windows.cmdline | grep -Ei "msedge.exe|DumpIt.exe|--type=renderer|--no-startup-window"
-```
-
-<img width="975" height="401" alt="image" src="./images/msedge-cmdline.png" />
 
 ```bash
 vol3 -f chall.dmp windows.pslist
@@ -28,7 +23,7 @@ Ta thấy được `msedge.exe` active khá sát lúc dump tức là Edge mở t
 Ta xem command line:
 
 ```bash
-vol3 -f chall.dmp windows.cmdline | grep -Ei "msedge.exe|DumpIt.exe|--type=renderer|--no-startup-window"
+vol3 -f chall.dmp windows.cmdline | grep -Ei "msedge.exe|DumpIt.exe|--type=renderer
 ```
 
 <img width="975" height="401" alt="image" src="./images/msedge-cmdline.png" />
