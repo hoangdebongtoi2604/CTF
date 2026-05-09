@@ -7,7 +7,7 @@ Sau khi dùng `windows.info` thì ta biết được thời điểm dump là `20
 vol3 -f chall.dmp windows.info
 ```
 
-<img width="975" height="448" alt="image" src="https://github.com/user-attachments/assets/6d9fc9a3-f2ba-4c57-a0c7-6a874fcc3e9f" />
+<img width="975" height="448" alt="image" src="./images/windows-info.png" />
 
 Cần biết trước khi dump có process nào chạy k.
 
@@ -15,13 +15,13 @@ Cần biết trước khi dump có process nào chạy k.
 vol3 -f chall.dmp windows.cmdline | grep -Ei "msedge.exe|DumpIt.exe|--type=renderer|--no-startup-window"
 ```
 
-<img width="975" height="401" alt="image" src="https://github.com/user-attachments/assets/a86dc64f-ff2a-4d77-9846-1e608d297b31" />
+<img width="975" height="401" alt="image" src="./images/msedge-cmdline.png" />
 
 ```bash
 vol3 -f chall.dmp windows.pslist
 ```
 
-<img width="975" height="455" alt="image" src="https://github.com/user-attachments/assets/ba2ee138-e340-4d09-8ff4-0100f83538e9" />
+<img width="975" height="455" alt="image" src="./images/windows-pslist.png" />
 
 Ta thấy được `msedge.exe` active khá sát lúc dump tức là Edge mở trước lúc dump khoảng hơn 1 phút. CÓ thể browser memory rất hay chứa form, tab, URL, clipboard-like text, cached DOM.
 
@@ -31,7 +31,7 @@ Ta xem command line:
 vol3 -f chall.dmp windows.cmdline | grep -Ei "msedge.exe|DumpIt.exe|--type=renderer|--no-startup-window"
 ```
 
-<img width="975" height="401" alt="image" src="https://github.com/user-attachments/assets/bcc501a0-3893-46b5-8f73-0f66af45f400" />
+<img width="975" height="401" alt="image" src="./images/msedge-cmdline.png" />
 
 Ta tháy nó có `no-startup-window`, kahs sú.
 
@@ -276,7 +276,7 @@ python3 find_paste_form_context.py chall.dmp
 
 Output quan trọng sẽ ra block này:
 
-<img width="881" height="429" alt="image" src="https://github.com/user-attachments/assets/2ecc2f10-a70c-4af9-bd03-7db932556819" />
+<img width="881" height="429" alt="image" src="./images/find-paste-form-context-output.png" />
 
 
 Ta sẽ thấy được flag ngay sau `textarea`:
