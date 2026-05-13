@@ -8,17 +8,6 @@ hanh trinh viet write up UwU
 |---|---|---|---|
 | UMDCTF 2026 | OSINT | Hades Market | [WriteUp](2026/UMDCTF/OSINT/Hades-Market/WriteUp.md) |
 | UMDCTF 2026 | OSINT | Road 3 | [WriteUp](2026/UMDCTF/OSINT/Road3/README.md) |
-## Repository Structure
+| BKISC | Forensic | Homework | [WriteUp](2026/BKISC/homework/Writeup.md) |
+| BKISC | Forensic | Beauty Memory | [WriteUp](2026/BKISC/beautymem/Writeup.md) |
 
-```text
-CTF/
-├── README.md
-└── 2026/
-    └── UMDCTF/
-        └── OSINT/
-            └── Road3
-                ├──images
-                └──README.md
-            └── Hades-Market
-                ├── WriteUp.md
-                └── images
