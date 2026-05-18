@@ -174,9 +174,9 @@ for audio in payloads:
 ```
 
 sau khi chạy xong, ta được 1 chuỗi base64 
-```bash
+
 <img width="841" height="165" alt="image" src="https://github.com/user-attachments/assets/0d55cc99-b595-44ac-bfe9-1c521c6a00ab" />
-```
+
 mang đi decode và ta được flag
 
 ---
