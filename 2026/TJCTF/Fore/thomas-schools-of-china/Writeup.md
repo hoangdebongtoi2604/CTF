@@ -11,8 +11,11 @@ Ta kiểm tra bằng vài lệnh file thì window cũng k nhận diện được
 Ta phân tích từng phần đầu header này 
 
 54 53 43 46     -> ASCII: TSCF
+
 01 00 00 00     -> version = 1
+
 3c 00 00 00     -> 0x3c = 60
+
 3d              -> 0x3d = 61
 
 60 61 có thể liên quan gì đấy đến kích thước của ảnh 
@@ -41,6 +44,10 @@ Sau đấy render file rgba raw bằng imagemagick
 magick -size 60x61 -depth 8 rgba:pixels.rgba out.png
 ```
 
+Out.png:
+
+<img width="60" height="61" alt="out" src="https://github.com/user-attachments/assets/5a648aca-b968-4e73-b5cd-12364b3bcfcd" />
+
 Ta không thể nhìn trực tiếp ảnh vì ảnh quá nhỏ
 
 Sau khi có out.png, ta có thể đoán tác giả giấu flag trong các kênh rgba, vì ảnh chỉ 60 x 61 
@@ -50,6 +57,7 @@ Ta sẽ thử viết script theo flow sau
 Đọc ảnh theo thứ tự:
 
 trái sang phải
+
 trên xuống dưới
 
 Với mỗi pixel:R, G, B, A
