@@ -288,7 +288,9 @@ IHDR của ảnh 1 :
 ```bash
 49 48 44 52 00 00 00 13 00 00 00 09 08 02 00 00 00
 ```
+
 <img width="680" height="356" alt="image" src="https://github.com/user-attachments/assets/9314b36f-456a-46a9-bd0e-f54084924e93" />
+
 IHDR của ảnh 2: 
 ```bash
 49 48 44 52 00 00 00 13 00 00 00 09 08 02 01 00 00
