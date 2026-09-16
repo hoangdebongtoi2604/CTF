@@ -115,7 +115,9 @@ Thu được:
 https://infosec.ptit.edu.vn/wp-content/uploads/sites/20/2026/07/6-600x400.jpg
 ```
 ![alt text](image-3.png)
+
 OK lúc đầu mình còn đi osint bài viết đã đăng bức ảnh này lên (")> 
+
 ![alt text](image-4.png)
 Tuy nheien lại k thấy cái flag nào cả 
 
@@ -239,7 +241,9 @@ for code in codes:
     print(code.text)
 ```
 kết quả của bộ giải mã:
+
 ![alt text](image-2.png)
+
 quét qr và ta nhận được part 1 : 
 ```PTITCTF{r4nd0m_1mg_s34rch_0n_w3b```
 
