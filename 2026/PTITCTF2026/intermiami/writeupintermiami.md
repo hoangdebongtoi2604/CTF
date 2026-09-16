@@ -117,3 +117,9 @@ inverse(a) = pow(a, q - 2, q)
 Precompute `fact[i]` và `inv_fact[i]` để mỗi trọng số Lagrange tính nhanh. Độ phức tạp là `O(N log q)` do cần nghịch đảo modulo cho các `t-i`; bộ nhớ `O(N)`.
 
 Nếu `t` tình cờ nằm trong `[0, N-1]`, trả thẳng `y[t]` để tránh chia cho 0.
+Chạy solve_larrange.py và ta có được flag:
+python solve_lagrange.py
+Flag lấy được từ instance:
+```
+PTITCTF{Lagrange_w1ll_b3_pr0ud_0f_y0u<3}
+```
