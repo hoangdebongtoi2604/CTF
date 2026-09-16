@@ -15,7 +15,7 @@ Chúng ta sẽ mở bằng FTK để thử triage bài trước
 
 Ta có thể thấy user chính là vietnq
 
-Bài này mình rất may mắn khi đã check thunderbird trước, do phản xạ cso thể liên quan đến lưu trữ tin nhắn và dữ liệu người dùng.
+Bài này mình rất may mắn khi đã check thunderbird trước, do phản xạ cso thể liên quan đến lưu trữ tin nhắn và dữ liệu người dùng, đồng thời trong phần Download cũng có thunderbird
 ![alt text](image-1.png)
 
 Trong phần email ta thấy phúc dd đã hướng dẫn vietpq mở PowerShell và chạy command, nên từ đây ta pivot sang PowerShell history.
