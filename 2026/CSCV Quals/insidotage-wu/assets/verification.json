@@ -1,0 +1,325 @@
+{
+  "mode": "known-offset evidence verification; not discovery",
+  "lime_segments": [
+    [
+      4096,
+      647168,
+      32
+    ],
+    [
+      1048576,
+      3219980287,
+      643136
+    ],
+    [
+      3220176896,
+      3221225471,
+      3219574879
+    ],
+    [
+      4294967296,
+      5368709119,
+      3220623486
+    ]
+  ],
+  "history": [
+    {
+      "places_offset": 826077288,
+      "visits_offset": 820026149,
+      "place_id": 237,
+      "visit_id": 265,
+      "place": [
+        null,
+        "https://www.keplr.app/",
+        "Keplr Wallet | Your Multichain Gateway",
+        "ppa.rlpek.www.",
+        1,
+        0,
+        0,
+        100,
+        1788603332495755,
+        "aqrsuJbJUF7D",
+        0,
+        47360240070146,
+        "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one",
+        "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp",
+        17
+      ],
+      "visit": [
+        null,
+        264,
+        237,
+        1788603332495755,
+        1,
+        0
+      ],
+      "epoch_seconds": 1788603332
+    },
+    {
+      "places_offset": 1091826976,
+      "visits_offset": 1116800651,
+      "place_id": 11,
+      "visit_id": 7,
+      "place": [
+        null,
+        "https://www.keplr.app/",
+        "Keplr Wallet | Your Multichain Gateway",
+        "ppa.rlpek.www.",
+        1,
+        0,
+        0,
+        20870,
+        1788604050357080,
+        "y7UGmKpHjBba",
+        0,
+        47360240070146,
+        "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one",
+        "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp",
+        null,
+        6,
+        0,
+        null,
+        1
+      ],
+      "visit": [
+        null,
+        6,
+        11,
+        1788604050357080,
+        6,
+        0,
+        0,
+        null
+      ],
+      "epoch_seconds": 1788604050
+    }
+  ],
+  "Q1": "Keplr",
+  "Q2": 1788604050,
+  "Q3": 1788604175124,
+  "Q4": "Vietdollar",
+  "Q5": "impose uniform fish special tip divert express increase push glide invite area",
+  "derived_cosmos_public_key": "028e8b4fd6f245ef66cce90a571988425bf26b90fdf204068f1b0e4850030e4af2",
+  "Q6": "/tmp/kworker1",
+  "Q7": "425LXZNnbSkh1SyXdbBtvJdst6uab98knQi5BscyzkAKTPSnDDB4i2Ue5t9BxETLuuKNHnP4n8VjsaqtzprvGsf115Keabc",
+  "monero_checksum": "a910e2e3",
+  "image_sha256": "0fb07dde95ea454f7419338bc4a447e84ecb20f6541a6557e1372c28293bd6a0",
+  "image_pages": [
+    {
+      "file_offset": 0,
+      "raw_offset": 1234477120,
+      "size": 4096
+    },
+    {
+      "file_offset": 4096,
+      "raw_offset": 1626218560,
+      "size": 4096
+    },
+    {
+      "file_offset": 8192,
+      "raw_offset": 1173909568,
+      "size": 4096
+    },
+    {
+      "file_offset": 12288,
+      "raw_offset": 1740042304,
+      "size": 4096
+    },
+    {
+      "file_offset": 16384,
+      "raw_offset": 1628782656,
+      "size": 4096
+    },
+    {
+      "file_offset": 20480,
+      "raw_offset": 1628876864,
+      "size": 4096
+    },
+    {
+      "file_offset": 24576,
+      "raw_offset": 1624199232,
+      "size": 4096
+    },
+    {
+      "file_offset": 28672,
+      "raw_offset": 1624207424,
+      "size": 4096
+    },
+    {
+      "file_offset": 32768,
+      "raw_offset": 1624555584,
+      "size": 4096
+    },
+    {
+      "file_offset": 36864,
+      "raw_offset": 1624563776,
+      "size": 4096
+    },
+    {
+      "file_offset": 40960,
+      "raw_offset": 1624571968,
+      "size": 4096
+    },
+    {
+      "file_offset": 45056,
+      "raw_offset": 1624580160,
+      "size": 4096
+    },
+    {
+      "file_offset": 49152,
+      "raw_offset": 1624588352,
+      "size": 4096
+    },
+    {
+      "file_offset": 53248,
+      "raw_offset": 1624592448,
+      "size": 4096
+    },
+    {
+      "file_offset": 57344,
+      "raw_offset": 1624600640,
+      "size": 4096
+    },
+    {
+      "file_offset": 61440,
+      "raw_offset": 1624608832,
+      "size": 4096
+    },
+    {
+      "file_offset": 65536,
+      "raw_offset": 1624617024,
+      "size": 4096
+    },
+    {
+      "file_offset": 69632,
+      "raw_offset": 1627304000,
+      "size": 4096
+    },
+    {
+      "file_offset": 73728,
+      "raw_offset": 1627316288,
+      "size": 4096
+    },
+    {
+      "file_offset": 77824,
+      "raw_offset": 1372270656,
+      "size": 4096
+    },
+    {
+      "file_offset": 81920,
+      "raw_offset": 1372381248,
+      "size": 4096
+    },
+    {
+      "file_offset": 86016,
+      "raw_offset": 1400909888,
+      "size": 4096
+    },
+    {
+      "file_offset": 90112,
+      "raw_offset": 1403789376,
+      "size": 4096
+    },
+    {
+      "file_offset": 94208,
+      "raw_offset": 1405485120,
+      "size": 4096
+    },
+    {
+      "file_offset": 98304,
+      "raw_offset": 1384104000,
+      "size": 4096
+    },
+    {
+      "file_offset": 102400,
+      "raw_offset": 1576837184,
+      "size": 4096
+    },
+    {
+      "file_offset": 106496,
+      "raw_offset": 1576874048,
+      "size": 4096
+    },
+    {
+      "file_offset": 110592,
+      "raw_offset": 1563807808,
+      "size": 4096
+    },
+    {
+      "file_offset": 114688,
+      "raw_offset": 1547599936,
+      "size": 4096
+    },
+    {
+      "file_offset": 118784,
+      "raw_offset": 1560481856,
+      "size": 4096
+    },
+    {
+      "file_offset": 122880,
+      "raw_offset": 1273122880,
+      "size": 4096
+    },
+    {
+      "file_offset": 126976,
+      "raw_offset": 1513181248,
+      "size": 4096
+    },
+    {
+      "file_offset": 131072,
+      "raw_offset": 1546514496,
+      "size": 4096
+    },
+    {
+      "file_offset": 135168,
+      "raw_offset": 1822974016,
+      "size": 4096
+    },
+    {
+      "file_offset": 139264,
+      "raw_offset": 1587249216,
+      "size": 4096
+    },
+    {
+      "file_offset": 143360,
+      "raw_offset": 1509281856,
+      "size": 4096
+    },
+    {
+      "file_offset": 147456,
+      "raw_offset": 1273806912,
+      "size": 4096
+    },
+    {
+      "file_offset": 151552,
+      "raw_offset": 1273811008,
+      "size": 4096
+    },
+    {
+      "file_offset": 155648,
+      "raw_offset": 1532473408,
+      "size": 4096
+    },
+    {
+      "file_offset": 159744,
+      "raw_offset": 1189138496,
+      "size": 4096
+    },
+    {
+      "file_offset": 163840,
+      "raw_offset": 1563357248,
+      "size": 4096
+    },
+    {
+      "file_offset": 167936,
+      "raw_offset": 1564180544,
+      "size": 4096
+    },
+    {
+      "file_offset": 172032,
+      "raw_offset": 1564561472,
+      "size": 1328
+    }
+  ],
+  "Q8": "Read recovered image visually; expected text without spaces: AIplsforgiveme"
+}

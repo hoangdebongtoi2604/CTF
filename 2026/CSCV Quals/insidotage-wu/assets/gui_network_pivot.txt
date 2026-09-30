@@ -1,0 +1,13 @@
+Volatility 3 Framework 2.28.0
+linux.sockstat.Sockstat --pids 7161
+
+NetNS   Process  PID   TID   FD  Family   Proto  Source              Destination         State
+4026531992 kworker1 7161 7161  12  AF_INET  TCP    192.168.76.131:37416 172.24.106.17:3333 ESTABLISHED
+
+linux.lsof.Lsof --pid 7161
+PID   TID   Process    FD  Path
+7161  7161  kworker1  0   /dev/null
+7161  7161  kworker1  1   /tmp/out
+7161  7161  kworker1  12  socket:[76934]
+
+The same socket is shown for worker threads 7166-7170.

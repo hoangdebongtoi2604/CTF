@@ -1,0 +1,77 @@
+ORIGINAL ARCHIVE places.sqlite Keplr offsets []
+ORIGINAL ARCHIVE places.sqlite-wal Keplr offsets []
+SCHEMA moz_places ('CREATE TABLE moz_places (   id INTEGER PRIMARY KEY, url LONGVARCHAR, title LONGVARCHAR, rev_host LONGVARCHAR, visit_count INTEGER DEFAULT 0, hidden INTEGER DEFAULT 0 NOT NULL, typed INTEGER DEFAULT 0 NOT NULL, frecency INTEGER DEFAULT -1 NOT NULL, last_visit_date INTEGER , guid TEXT, foreign_count INTEGER DEFAULT 0 NOT NULL, url_hash INTEGER DEFAULT 0 NOT NULL , description TEXT, preview_image_url TEXT, origin_id INTEGER REFERENCES moz_origins(id))',)
+SCHEMA moz_historyvisits ('CREATE TABLE moz_historyvisits (  id INTEGER PRIMARY KEY, from_visit INTEGER, place_id INTEGER, visit_date INTEGER, visit_type INTEGER, session INTEGER)',)
+TIMESTAMP_HIT 705513234 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 820026163 1788603332495755 2026-09-05T10:15:32.495755+00:00
+CELL {"offset": 820026149, "rowid": 265, "values": [null, 264, 237, 1788603332495755, 1, 0], "serials": [0, 2, 2, 6, 9, 8]}
+TIMESTAMP_HIT 820363205 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 820675142 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 821162990 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 826077385 1788603332495755 2026-09-05T10:15:32.495755+00:00
+CELL {"offset": 826077288, "rowid": 237, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 100, 1788603332495755, "aqrsuJbJUF7D", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", 17], "serials": [0, 57, 89, 41, 9, 8, 8, 1, 6, 37, 8, 5, 315, 217, 1]}
+TIMESTAMP_HIT 1091827077 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1091826976, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1116800664 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1116800651, "rowid": 7, "values": [null, 6, 11, 1788604050357080, 6, 0, 0, null], "serials": [0, 1, 1, 6, 1, 8, 8, 0]}
+TIMESTAMP_HIT 1141974461 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1141974360, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1142142469 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1142142368, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1142437597 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1142437496, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1142604198 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1142735336 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1142735323, "rowid": 7, "values": [null, 6, 11, 1788604050357080, 6, 0, 0, null], "serials": [0, 1, 1, 6, 1, 8, 8, 0]}
+TIMESTAMP_HIT 1142768166 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1142833762 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1142929477 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1142929376, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1142995061 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1142994960, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1143322981 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1143322880, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1143489582 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1159913430 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1198515374 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1198527600 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1198527587, "rowid": 7, "values": [null, 6, 11, 1788604050357080, 6, 0, 0, null], "serials": [0, 1, 1, 6, 1, 8, 8, 0]}
+TIMESTAMP_HIT 1281384426 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1288634346 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1298323158 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1308495838 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1338691589 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 1351585720 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1351585707, "rowid": 7, "values": [null, 6, 11, 1788604050357080, 6, 0, 0, null], "serials": [0, 1, 1, 6, 1, 8, 8, 0]}
+TIMESTAMP_HIT 1367629752 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1367629739, "rowid": 7, "values": [null, 6, 11, 1788604050357080, 6, 0, 0, null], "serials": [0, 1, 1, 6, 1, 8, 8, 0]}
+TIMESTAMP_HIT 1367662558 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1381369221 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1381369120, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1461534698 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1562527318 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1662158614 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1674646917 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1674646816, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1701750149 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1701750048, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1717776342 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1718150378 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 1786932109 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1786932008, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1787766149 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 1787766048, "rowid": 11, "values": [null, "https://www.keplr.app/", "Keplr Wallet | Your Multichain Gateway", "ppa.rlpek.www.", 1, 0, 0, 20870, 1788604050357080, "y7UGmKpHjBba", 0, 47360240070146, "Introducing Keplr, the fast, simple, secure wallet connecting you to any blockchains and apps. Pioneering its way in the multichain future from day one", "https://cdn.prod.website-files.com/667dc891bc7b863b5397495b/68aade81ef5ddf2053e99f85_open-graph-1.webp", null, 6, 0, null, 1], "serials": [0, 57, 89, 41, 9, 8, 8, 2, 6, 37, 8, 5, 315, 217, 0, 1, 8, 0, 9]}
+TIMESTAMP_HIT 1875961686 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 2498351173 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 2590429317 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 2659573957 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 2721026309 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 2768294213 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 2820727173 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 2870735301 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 3970002972 1788604050357080 2026-09-05T10:27:30.357080+00:00
+TIMESTAMP_HIT 4021379651 1788603332495755 2026-09-05T10:15:32.495755+00:00
+TIMESTAMP_HIT 4030169078 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 4030169065, "rowid": 7, "values": [null, 6, 11, 1788604050357080, 6, 0, 0, null], "serials": [0, 1, 1, 6, 1, 8, 8, 0]}
+TIMESTAMP_HIT 4063862900 1788604050357080 2026-09-05T10:27:30.357080+00:00
+CELL {"offset": 4063862887, "rowid": 7, "values": [null, 6, 11, 1788604050357080, 6, 0, 0, null], "serials": [0, 1, 1, 6, 1, 8, 8, 0]}

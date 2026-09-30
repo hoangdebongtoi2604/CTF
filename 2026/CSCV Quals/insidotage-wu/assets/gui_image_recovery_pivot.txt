@@ -1,0 +1,15 @@
+Image recovery evidence
+
+initial lead from standard user activity triage:
+  home/centos/.local/share/recently-used.xbel
+  file:///home/centos/Downloads/3dcd833c-2b43-4af4-9ebd-b8e6609dbc3b.webp
+  application: Firefox
+  visited: 2026-09-05T13:10:11.514713Z
+
+the logical collection did not preserve a usable copy of that file.
+RAM analysis recovered the WebP by mapping virtual pages back through LiME
+segments and the Firefox process page tables.
+
+output:
+  insider-viewed-image.webp
+  text read from image: AIplsforgiveme

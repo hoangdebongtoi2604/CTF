@@ -1,0 +1,20 @@
+Volatility 3 Framework 2.28.0
+symbol path: D:\volatility3-symbols\linux
+memory:      D:\ctftraining\CSCV2026\fore\insidogetage\work\mem.raw
+
+linux.pslist.PsList
+PID     PPID    COMM             UID    START (UTC)
+2943    2917    firefox-bin      1000   2026-09-05 12:28:54.767484
+7161    1811    kworker1         1000   2026-09-05 18:05:15.420743
+7435    7433    avml              0    2026-09-05 18:13:04.999344
+
+linux.psaux.PsAux
+2943    2917    firefox-bin      /opt/firefox-155/firefox -P firefox155 --no-remote
+7161    1811    kworker1         ./kworker1
+7435    7433    avml              /mnt/hgfs/Downloads/avml mem.raw
+
+linux.pstree.PsTree
+***  bash (PID 7399)
+**** sudo (PID 7433)
+***** avml (PID 7435)
+** kworker1 (PID 7161)    <-- user session, not kthreadd

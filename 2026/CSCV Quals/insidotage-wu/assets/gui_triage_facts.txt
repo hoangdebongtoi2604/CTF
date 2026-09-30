@@ -1,0 +1,27 @@
+CSCV2026 / insidogetage - initial triage
+
+case: D:\ctftraining\CSCV2026\fore\insidogetage
+method: container inventory + standard artifact triage; no challenge-specific search terms
+
+outer archive:
+  collect.zip  2,103,957,595 bytes
+  mem.raw      4,294,365,309 bytes
+
+collection:
+  members              5377
+  top-level             etc=1736 home=438 var=3079 tmp=41 opt=68
+  disk image candidates []
+  NTFS MFT/USN/LogFile  []
+  audit events          2118
+  OS                    CentOS Stream 9
+  filesystem            XFS (/ /boot /home)
+  user                  centos UID 1000, shell /bin/bash
+  privilege             centos in wheel; %wheel NOPASSWD: ALL
+  bash_history          0 bytes
+
+first LiME header:
+  magic 45 4d 69 4c  version 1  physical start 0x1000  end 0x9dfff
+
+decision:
+  No raw/E01/NTFS image was present, so MFT/$J/FTK carving was not applicable.
+  Continue with Linux logs, audit, browser artifacts and RAM.

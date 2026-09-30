@@ -1,0 +1,18 @@
+Static review of recovered memory mapping
+
+source: mem.raw, PID 7161, runtime image base 0x55c2d17fe000
+recovered object: /tmp/kworker1
+status: PARTIAL - missing memory pages remain zero-filled
+
+strings / handler clues:
+  SIGHUP received, reloading payout profile
+  reloading encrypted payout profile
+  payout profile accepted
+  payout profile rejected
+
+handler:
+  decoder function RVA 0xcaa60
+  XTEA-32-round LE CBC, PKCS#7 padding
+  ciphertext recovered independently at 3 raw locations
+
+This is a partial mapped recovery, not the original on-disk ELF.

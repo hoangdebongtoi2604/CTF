@@ -1,0 +1,4 @@
+[0;33mSIGHUP received, reloading payout profile	0x2360DC (A)
+[1;37mreloading encrypted payout profile	0x238A34 (A)
+[1;32mpayout profile accepted	0x238A6C (A)
+[1;31mpayout profile rejected	0x238A94 (A)
