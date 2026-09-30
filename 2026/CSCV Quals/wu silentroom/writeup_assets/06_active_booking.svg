@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="650" viewBox="0 0 1800 650">
+<rect width="1800" height="650" fill="#111827"/>
+<text x="40" y="54" fill="#93c5fd" font-family="DejaVu Sans Mono,monospace" font-size="28">Cache JSON — old vs active reservation</text>
+<g fill="#e5e7eb" font-family="DejaVu Sans Mono,monospace" font-size="22" xml:space="preserve">
+<text x="40" y="104">f_000021 (old)</text>
+<text x="40" y="140">reservation: BAB-403DN</text>
+<text x="40" y="176">state: 7  // cancelled</text>
+<text x="40" y="212">supersededBy: HSR-260820-0401</text>
+<text x="40" y="248">room: 403</text>
+<text x="40" y="306">f_000041 (active)</text>
+<text x="40" y="342">reservation: HSR-260820-0401</text>
+<text x="40" y="378">state: 2  // confirmed</text>
+<text x="40" y="414">roomNumber: 401</text>
+<text x="40" y="450">cityCode: DAD</text>
+<text x="40" y="486">checkinFrom: 2026-08-20T19:00:00+07:00</text>
+</g></svg>

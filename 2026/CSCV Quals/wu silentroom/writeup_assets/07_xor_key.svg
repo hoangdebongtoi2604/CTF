@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="650" viewBox="0 0 1800 650">
+<rect width="1800" height="650" fill="#111827"/>
+<text x="40" y="54" fill="#93c5fd" font-family="DejaVu Sans Mono,monospace" font-size="28">Tạo key XOR cho f_000089</text>
+<g fill="#e5e7eb" font-family="DejaVu Sans Mono,monospace" font-size="22" xml:space="preserve">
+<text x="40" y="106">PNR | state (word) | room | property(no spaces) | city(no spaces)</text>
+<text x="40" y="160">NSE1842 | confirmed | 401 | HanaRiverSide | DaNang</text>
+<text x="40" y="214">NSE1842|confirmed|401|HanaRiverSide|DaNang</text>
+<text x="40" y="276">decoded = bytes(</text>
+<text x="40" y="312">  byte ^ key[i % len(key)] for i, byte in enumerate(f_000089)</text>
+<text x="40" y="348">)</text>
+<text x="40" y="420" fill="#fcd34d">Output magic: 89 50 4e 47 0d 0a 1a 0a</text>
+<text x="40" y="456" fill="#fcd34d">-&gt; PNG proof image</text>
+</g></svg>

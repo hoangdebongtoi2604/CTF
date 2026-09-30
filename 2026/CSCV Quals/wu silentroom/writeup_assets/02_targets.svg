@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="650" viewBox="0 0 1800 650">
+<rect width="1800" height="650" fill="#111827"/>
+<text x="40" y="54" fill="#93c5fd" font-family="DejaVu Sans Mono,monospace" font-size="28">fls — files đáng chú ý</text>
+<g fill="#e5e7eb" font-family="DejaVu Sans Mono,monospace" font-size="22" xml:space="preserve">
+<text x="40" y="100">Users/A/Documents/Scholarship/application_autosave.txt</text>
+<text x="40" y="138">Users/A/Downloads/booking_BAB_403_receipt.html</text>
+<text x="40" y="176">Users/A/Downloads/notice_217.pdf</text>
+<text x="40" y="214" fill="#fca5a5">Users/A/Downloads/booking_HSR_260820_preview.png  [deleted]</text>
+<text x="40" y="252" fill="#fca5a5">Users/A/Downloads/ticket_DN1842.png              [deleted]</text>
+<text x="40" y="304">Users/A/AppData/Roaming/ChatApp/msg_cache.db</text>
+<text x="40" y="342">.../Chrome/User Data/Default/History</text>
+<text x="40" y="380">.../Cache/Cache_Data/f_000033</text>
+<text x="40" y="418">.../Cache/Cache_Data/f_000054</text>
+<text x="40" y="456">.../Cache/Cache_Data/f_000089</text>
+<text x="40" y="530" fill="#fcd34d">Hai ảnh bị xóa nhưng bản cache vẫn giữ byte thật.</text>
+</g></svg>

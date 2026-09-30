@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="650" viewBox="0 0 1800 650">
+<rect width="1800" height="650" fill="#111827"/>
+<text x="40" y="54" fill="#93c5fd" font-family="DejaVu Sans Mono,monospace" font-size="28">ewfinfo + mmls + fsstat</text>
+<g fill="#e5e7eb" font-family="DejaVu Sans Mono,monospace" font-size="23" xml:space="preserve">
+<text x="40" y="100">$ ewfinfo evidence.E01</text>
+<text x="40" y="134">File format: EnCase 6</text>
+<text x="40" y="168">Media size: 2.0 GiB (2147483648 bytes)</text>
+<text x="40" y="202">MD5: abb90c7772c153b2d37633065e71f670</text>
+<text x="40" y="250">$ mmls evidence.raw.raw</text>
+<text x="40" y="284">Slot  Start        End          Length       Description</text>
+<text x="40" y="318">002   128          4192255      4192128      NTFS / exFAT (0x07)</text>
+<text x="40" y="366">$ fsstat -o 128 evidence.raw.raw</text>
+<text x="40" y="400">File System Type: NTFS</text>
+<text x="40" y="434">Volume Name: A-LAPTOP</text>
+<text x="40" y="468">Version: Windows XP</text>
+</g></svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="650" viewBox="0 0 1800 650">
+<rect width="1800" height="650" fill="#111827"/>
+<text x="40" y="54" fill="#93c5fd" font-family="DejaVu Sans Mono,monospace" font-size="28">app.bundle.js + Local State</text>
+<g fill="#e5e7eb" font-family="DejaVu Sans Mono,monospace" font-size="22" xml:space="preserve">
+<text x="40" y="104">deriveKey(peer,caseId) {</text>
+<text x="40" y="140">  createHash("sha256")</text>
+<text x="40" y="176">  .update(["chatapp-web-v2", peer, caseId].join("|"))</text>
+<text x="40" y="212">  .digest()</text>
+<text x="40" y="248">}</text>
+<text x="40" y="310">activePeer = fi-operator-73</text>
+<text x="40" y="346">caseId     = FI-217</text>
+<text x="40" y="404" fill="#fcd34d">SHA256("chatapp-web-v2|fi-operator-73|FI-217")</text>
+<text x="40" y="440" fill="#fcd34d">                  -&gt; AES-256-CBC key</text>
+<text x="40" y="520">Sau khi decrypt, chat bảo phải tin trạng thái booking mới.</text>
+</g></svg>
