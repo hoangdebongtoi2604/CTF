@@ -1,0 +1,18 @@
+{
+  "361498": [
+    {
+      "wire_offset": 24,
+      "bit": 3,
+      "before": 87,
+      "after": 95
+    }
+  ],
+  "448918": [
+    {
+      "wire_offset": 10,
+      "bit": 7,
+      "before": 134,
+      "after": 6
+    }
+  ]
+}

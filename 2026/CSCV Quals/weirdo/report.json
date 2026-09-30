@@ -1,0 +1,378 @@
+{
+  "source_sha256": "b91551c7a916f978514ef2e4dd7539b9abee4515626bd1c141ebbde988f120f2",
+  "source_size": 52251302,
+  "pcap_packets": 556262,
+  "udp_packets": 556262,
+  "mavlink2_frames": 556262,
+  "first_utc": "2026-09-09T18:45:05.206980+00:00",
+  "last_utc": "2026-09-09T19:51:11.319504+00:00",
+  "duration_seconds": 3966.112524032593,
+  "endpoints": [
+    {
+      "src": "10.13.37.50",
+      "sport": 14550,
+      "dst": "10.13.37.10",
+      "dport": 14550,
+      "packets": 144891
+    },
+    {
+      "src": "10.13.37.51",
+      "sport": 14550,
+      "dst": "10.13.37.10",
+      "dport": 14550,
+      "packets": 145427
+    },
+    {
+      "src": "10.13.37.52",
+      "sport": 14550,
+      "dst": "10.13.37.10",
+      "dport": 14550,
+      "packets": 120546
+    },
+    {
+      "src": "10.13.37.53",
+      "sport": 14550,
+      "dst": "10.13.37.10",
+      "dport": 14550,
+      "packets": 145398
+    }
+  ],
+  "systems": [
+    {
+      "src": "10.13.37.50",
+      "sysid": 1,
+      "packets": 144891
+    },
+    {
+      "src": "10.13.37.51",
+      "sysid": 2,
+      "packets": 145427
+    },
+    {
+      "src": "10.13.37.52",
+      "sysid": 3,
+      "packets": 120546
+    },
+    {
+      "src": "10.13.37.53",
+      "sysid": 4,
+      "packets": 145398
+    }
+  ],
+  "messages": {
+    "242": 4,
+    "0": 7281,
+    "2": 45546,
+    "1": 15231,
+    "147": 15221,
+    "24": 15776,
+    "33": 15182,
+    "124": 12061,
+    "30": 15225,
+    "74": 15219,
+    "65": 15210,
+    "62": 15215,
+    "42": 15596,
+    "27": 15183,
+    "116": 15189,
+    "129": 15185,
+    "152": 15184,
+    "163": 15185,
+    "178": 15185,
+    "36": 15184,
+    "29": 15185,
+    "137": 15182,
+    "193": 15189,
+    "136": 15185,
+    "168": 12454,
+    "32": 12512,
+    "87": 10785,
+    "133": 4254,
+    "125": 45546,
+    "164": 45546,
+    "241": 45546,
+    "134": 3209,
+    "253": 3240,
+    "22": 348,
+    "264": 1411,
+    "111": 358,
+    "66": 476,
+    "20": 669,
+    "46": 61,
+    "76": 44
+  },
+  "crc_counts": {
+    "(1, 24, False)": 119,
+    "(1, 24, True)": 3908,
+    "(1, 33, True)": 3960,
+    "(1, 124, False)": 115,
+    "(1, 124, True)": 2916,
+    "(1, 253, False)": 120,
+    "(1, 253, True)": 739,
+    "(2, 24, False)": 126,
+    "(2, 24, True)": 4017,
+    "(2, 33, True)": 3960,
+    "(2, 124, False)": 125,
+    "(2, 124, True)": 3069,
+    "(2, 253, False)": 120,
+    "(2, 253, True)": 769,
+    "(3, 24, False)": 90,
+    "(3, 24, True)": 3301,
+    "(3, 33, True)": 3302,
+    "(3, 124, False)": 46,
+    "(3, 124, True)": 2596,
+    "(3, 253, False)": 46,
+    "(3, 253, True)": 603,
+    "(4, 24, False)": 125,
+    "(4, 24, True)": 4090,
+    "(4, 33, True)": 3960,
+    "(4, 124, False)": 125,
+    "(4, 124, True)": 3069,
+    "(4, 253, False)": 126,
+    "(4, 253, True)": 717
+  },
+  "filter_stages": {
+    "(1, 24, 'altitude')": 1980,
+    "(1, 24, 'crc_valid')": 3908,
+    "(1, 24, 'quality')": 2788,
+    "(1, 124, 'altitude')": 1980,
+    "(1, 124, 'crc_valid')": 2916,
+    "(1, 124, 'quality')": 2188,
+    "(2, 24, 'altitude')": 1980,
+    "(2, 24, 'crc_valid')": 4017,
+    "(2, 24, 'quality')": 2817,
+    "(2, 124, 'altitude')": 1980,
+    "(2, 124, 'crc_valid')": 3069,
+    "(2, 124, 'quality')": 2222,
+    "(3, 24, 'altitude')": 1651,
+    "(3, 24, 'crc_valid')": 3301,
+    "(3, 24, 'quality')": 2317,
+    "(3, 124, 'altitude')": 1651,
+    "(3, 124, 'crc_valid')": 2596,
+    "(3, 124, 'quality')": 1861,
+    "(4, 24, 'altitude')": 1980,
+    "(4, 24, 'crc_valid')": 4090,
+    "(4, 24, 'quality')": 2842,
+    "(4, 124, 'altitude')": 1980,
+    "(4, 124, 'crc_valid')": 3069,
+    "(4, 124, 'quality')": 2222
+  },
+  "filtered_tracks": {
+    "1-24": 1980,
+    "1-124": 1980,
+    "2-24": 1980,
+    "2-124": 1980,
+    "3-24": 1651,
+    "3-124": 1651,
+    "4-24": 1980,
+    "4-124": 1980
+  },
+  "sys3_gps24_valid_altitudes_top10": [
+    [
+      100000,
+      1650
+    ],
+    [
+      29897,
+      11
+    ],
+    [
+      29891,
+      11
+    ],
+    [
+      29947,
+      11
+    ],
+    [
+      29961,
+      10
+    ],
+    [
+      30104,
+      9
+    ],
+    [
+      30117,
+      9
+    ],
+    [
+      29959,
+      9
+    ],
+    [
+      30193,
+      9
+    ],
+    [
+      30116,
+      9
+    ]
+  ],
+  "sys3_gpi33_records": 3302,
+  "sys3_gpi33_unique": 1651,
+  "gps24_gpi33_coordinate_sets_equal": true,
+  "pca_axis_degrees": -32.889940435894495,
+  "retained_edges": 1589,
+  "original_edges": 1650,
+  "selected_first": [
+    16,
+    1788979505.386979,
+    10.7687368,
+    106.6524334,
+    30.125,
+    3,
+    11,
+    130000
+  ],
+  "selected_last": [
+    338615,
+    1788981482.417371,
+    10.7660786,
+    106.6557895,
+    29.957,
+    3,
+    11,
+    1976228000
+  ],
+  "statustext_leads": [
+    {
+      "frame": 38283,
+      "sysid": 3,
+      "crc_valid": true,
+      "text": "FLAG_PART: 175_4_"
+    },
+    {
+      "frame": 95365,
+      "sysid": 3,
+      "crc_valid": true,
+      "text": "FLAG_PART: b1rd_1"
+    },
+    {
+      "frame": 102235,
+      "sysid": 4,
+      "crc_valid": true,
+      "text": "FLAG_PART: r315en"
+    },
+    {
+      "frame": 102391,
+      "sysid": 1,
+      "crc_valid": true,
+      "text": "FLAG_PART: th3_sk"
+    },
+    {
+      "frame": 147581,
+      "sysid": 3,
+      "crc_valid": true,
+      "text": "FLAG_PART: 75_4_p"
+    },
+    {
+      "frame": 192363,
+      "sysid": 3,
+      "crc_valid": true,
+      "text": "FLAG_PART: l4n3_1"
+    },
+    {
+      "frame": 230815,
+      "sysid": 3,
+      "crc_valid": false,
+      "text": "FLAGPART: 75_5up"
+    },
+    {
+      "frame": 236784,
+      "sysid": 2,
+      "crc_valid": false,
+      "text": "FLAG_PAR\\: n0_s4t"
+    },
+    {
+      "frame": 238046,
+      "sysid": 1,
+      "crc_valid": true,
+      "text": "FLAG_PART: y_1s_n"
+    },
+    {
+      "frame": 272869,
+      "sysid": 3,
+      "crc_valid": true,
+      "text": "FLAG_PART: 3rm4n"
+    },
+    {
+      "frame": 338907,
+      "sysid": 3,
+      "crc_valid": true,
+      "text": "INFO: GPS2_RAW is the accurate one"
+    },
+    {
+      "frame": 359841,
+      "sysid": 4,
+      "crc_valid": false,
+      "text": "FLAG_PART: \\xdft00_m"
+    },
+    {
+      "frame": 360195,
+      "sysid": 2,
+      "crc_valid": true,
+      "text": "FLAG_PART: 3ll1t3"
+    },
+    {
+      "frame": 361498,
+      "sysid": 1,
+      "crc_valid": false,
+      "text": "FLAG_PART: 0tWr34"
+    },
+    {
+      "frame": 382074,
+      "sysid": 4,
+      "crc_valid": true,
+      "text": "LOG: fix_type>=1 includes full path"
+    },
+    {
+      "frame": 405297,
+      "sysid": 1,
+      "crc_valid": true,
+      "text": "FLAG_MD5: 1e375de6074f25cd86ddab22948b5064"
+    },
+    {
+      "frame": 446657,
+      "sysid": 2,
+      "crc_valid": false,
+      "text": "FLAG\u001fPART: _3dc2b"
+    },
+    {
+      "frame": 446800,
+      "sysid": 4,
+      "crc_valid": true,
+      "text": "FLAG_PART: uch_0b"
+    },
+    {
+      "frame": 448918,
+      "sysid": 1,
+      "crc_valid": false,
+      "text": "FLAG_PART: l_5acb"
+    },
+    {
+      "frame": 497374,
+      "sysid": 2,
+      "crc_valid": true,
+      "text": "DEBUG: sats>=3 fix>=1 gives clean track"
+    },
+    {
+      "frame": 511817,
+      "sysid": 4,
+      "crc_valid": true,
+      "text": "FLAG_PART: 3e75ae"
+    },
+    {
+      "frame": 512402,
+      "sysid": 2,
+      "crc_valid": false,
+      "text": "FLAGOPART: cc9"
+    },
+    {
+      "frame": 514281,
+      "sysid": 1,
+      "crc_valid": true,
+      "text": "FLAG_PART: 9c6b"
+    }
+  ]
+}
